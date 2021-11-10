@@ -41,10 +41,7 @@ struct ImagePickerView: UIViewControllerRepresentable {
                 self?.parent.onComplete(object as? UIImage)
             })
         }
-        
-        
     }
-    
     
     private var imagePickerConfiguration: PHPickerConfiguration {
         var configuration = PHPickerConfiguration(photoLibrary: .shared())

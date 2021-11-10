@@ -20,8 +20,7 @@ struct FilePickerView: UIViewControllerRepresentable {
         return picker
     }
     
-    func updateUIViewController(_ presentingController: UIViewController, context: Context) {
-    }
+    func updateUIViewController(_ presentingController: UIViewController, context: Context) { }
     
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
